@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-16T07:56:56.830Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="HjiqyEHI-bhG2BkN-dFz" version="13.9.8" type="github" pages="3">
+<mxfile modified="2020-11-16T08:14:14.572Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="xAz0Tiixvlrm64DTZxw5" version="13.9.8" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="operator-process">
     <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -415,6 +415,9 @@
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-18" target="Ua-teP7_7NLsLcD_5R8c-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-18" target="Ua-teP7_7NLsLcD_5R8c-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-18" value="&lt;font style=&quot;font-size: 18px&quot;&gt;reconcileGlobalnetDaemonSet&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
           <mxGeometry x="238.13" y="757.5" width="273.75" height="30" as="geometry" />
         </mxCell>
@@ -445,6 +448,59 @@
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-27" value="&lt;span style=&quot;font-size: 14px&quot;&gt;2.设置controller的reference&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
           <mxGeometry x="530" y="807.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-29" target="Ua-teP7_7NLsLcD_5R8c-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-29" target="Ua-teP7_7NLsLcD_5R8c-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-29" value="&lt;font style=&quot;font-size: 18px&quot;&gt;检索网关（gateway）信息&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="240" y="940" width="270" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-31" target="Ua-teP7_7NLsLcD_5R8c-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-31" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1.查ns下所有的gateway.submariner.io&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="530" y="936.25" width="240" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-33" target="Ua-teP7_7NLsLcD_5R8c-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-33" value="&lt;span style=&quot;font-size: 14px&quot;&gt;2.遍历网关，设置controller的reference&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="525" y="990" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-35" target="Ua-teP7_7NLsLcD_5R8c-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-35" value="&lt;span style=&quot;font-size: 14px&quot;&gt;3.记录网关总数，维护总数&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="525" y="1040" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-37" target="Ua-teP7_7NLsLcD_5R8c-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-37" value="&lt;span style=&quot;font-size: 14px&quot;&gt;4.遍历网关，根据网关状态，设置连接参数&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="525" y="1090" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-39" value="&lt;div&gt;connectionsLocalClusterLabel:&amp;nbsp; &amp;nbsp;localCluster,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;connectionsLocalHostnameLabel:&amp;nbsp; localHostname,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;connectionsRemoteClusterLabel:&amp;nbsp; remoteCluster,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;connectionsRemoteHostnameLabel: remoteHostname,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;connectionsStatusLabel:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;status,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;ateway.Status.LocalEndpoint.ClusterID&lt;span style=&quot;color: #cc7832&quot;&gt;,&lt;br&gt;&lt;/span&gt;gateway.Status.LocalEndpoint.Hostname&lt;span style=&quot;color: #cc7832&quot;&gt;,&lt;br&gt;&lt;/span&gt;gateway.Status.Connections[j].Endpoint.ClusterID&lt;span style=&quot;color: #cc7832&quot;&gt;,&lt;br&gt;&lt;/span&gt;gateway.Status.Connections[j].Endpoint.Hostname&lt;span style=&quot;color: #cc7832&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="900" y="922.5" width="330" height="197.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-41" target="Ua-teP7_7NLsLcD_5R8c-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375.0050000000001" y="1291.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-41" value="&lt;span style=&quot;font-size: 18px&quot;&gt;上面查到的submariner实例设置参数&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="225" y="1200" width="300.01" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-43" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;instance.Status.NatEnabled = instance.Spec.NatEnabled&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;	&lt;/span&gt;instance.Status.ColorCodes = instance.Spec.ColorCodes&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;	&lt;/span&gt;instance.Status.ClusterID = instance.Spec.ClusterID&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;	&lt;/span&gt;instance.Status.GlobalCIDR = instance.Spec.GlobalCIDR&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;	&lt;/span&gt;instance.Status.Gateways = &amp;amp;gatewayStatuses&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="550" y="1168.75" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-47" value="&lt;span style=&quot;font-size: 18px&quot;&gt;根据engineDaemonSet、routeagentDaemonSet、globalnetDaemonSet&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;更新、&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;submariner实例的Status&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="225" y="1290" width="835" height="27.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
