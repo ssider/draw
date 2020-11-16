@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-16T06:20:08.681Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="ELzjFXjuFYS7LXFHzXiP" version="13.9.8" type="github" pages="2">
+<mxfile modified="2020-11-16T06:36:05.078Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="5-vlMAczde7Q8ntPNCVY" version="13.9.8" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -83,24 +83,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="08BK1heamfLCw0PbWUhV" name="Page-2">
-    <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eKBEcJLPsEKG9jPXAxb9-0" />
         <mxCell id="eKBEcJLPsEKG9jPXAxb9-1" parent="eKBEcJLPsEKG9jPXAxb9-0" />
-        <mxCell id="eKBEcJLPsEKG9jPXAxb9-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;submariner-controller&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
-          <mxGeometry x="40" y="100" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="q2rs-EoDX2lvy_-368Ex-0" value="" style="endArrow=classic;html=1;exitX=0.48;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="eKBEcJLPsEKG9jPXAxb9-1" source="eKBEcJLPsEKG9jPXAxb9-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="147" y="101" as="sourcePoint" />
-            <mxPoint x="210" y="60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q2rs-EoDX2lvy_-368Ex-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eKBEcJLPsEKG9jPXAxb9-1" source="q2rs-EoDX2lvy_-368Ex-1" target="q2rs-EoDX2lvy_-368Ex-2">
+        <mxCell id="q2rs-EoDX2lvy_-368Ex-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eKBEcJLPsEKG9jPXAxb9-1" source="eKBEcJLPsEKG9jPXAxb9-2" target="q2rs-EoDX2lvy_-368Ex-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q2rs-EoDX2lvy_-368Ex-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;watch&amp;nbsp; serviceDiscovery（v1alpha1）、 appsv1.Deployments&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
-          <mxGeometry x="200" y="50" width="510" height="20" as="geometry" />
+        <mxCell id="eKBEcJLPsEKG9jPXAxb9-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;servicediscovery-controller&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
+          <mxGeometry x="330" y="-40" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="q2rs-EoDX2lvy_-368Ex-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.696;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="eKBEcJLPsEKG9jPXAxb9-1" target="q2rs-EoDX2lvy_-368Ex-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454.96000000000004" y="60" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eKBEcJLPsEKG9jPXAxb9-1" source="q2rs-EoDX2lvy_-368Ex-2" target="q2rs-EoDX2lvy_-368Ex-4">
           <mxGeometry relative="1" as="geometry" />
@@ -121,7 +117,7 @@
           <mxGeometry x="435" y="180" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;删除此ns下app=submariner-lighthouse-agent的deployment&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
-          <mxGeometry x="120" y="160" width="284" height="50" as="geometry" />
+          <mxGeometry x="120" y="165" width="284" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-11" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
           <mxGeometry x="414" y="170" width="20" height="20" as="geometry" />
@@ -179,7 +175,7 @@
           <mxGeometry x="355" y="522" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-38" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;lables&amp;nbsp;&amp;nbsp;(app是matchLabels)&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;app=&lt;/span&gt;&lt;span style=&quot;text-align: center ; color: rgb(106 , 135 , 89) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;submariner-lighthouse-coredns&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;component=&lt;/span&gt;&lt;span style=&quot;text-align: center ; color: rgb(106 , 135 , 89) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;submariner-lighthouse&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ports：&lt;br&gt;Name：udp&lt;br&gt;&lt;/span&gt;protocol：UDP&lt;br&gt;targetPort：53" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
-          <mxGeometry x="591" y="497" width="230" height="110" as="geometry" />
+          <mxGeometry x="597" y="497" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-43" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="eKBEcJLPsEKG9jPXAxb9-1" source="q2rs-EoDX2lvy_-368Ex-25" target="q2rs-EoDX2lvy_-368Ex-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -222,7 +218,7 @@
           <mxGeometry x="597" y="267.5" width="230" height="45" as="geometry" />
         </mxCell>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-52" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ENV:&lt;br&gt;&lt;div&gt;{Name: &quot;SUBMARINER_NAMESPACE&quot;, Value: cr.Spec.Namespace},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_CLUSTERID&quot;, Value: cr.Spec.ClusterID},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_EXCLUDENS&quot;, Value: &quot;submariner,kube-system,operators&quot;},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_DEBUG&quot;, Value: strconv.FormatBool(cr.Spec.Debug)},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_GLOBALNET_ENABLED&quot;, Value: strconv.FormatBool(cr.Spec.GlobalnetEnabled)},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;BROKER_K8S_APISERVER&quot;, Value: cr.Spec.BrokerK8sApiServer},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;BROKER_K8S_APISERVERTOKEN&quot;, Value: cr.Spec.BrokerK8sApiServerToken},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;BROKER_K8S_REMOTENAMESPACE&quot;, Value: cr.Spec.BrokerK8sRemoteNamespace},&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;BROKER_K8S_CA&quot;, Value: cr.Spec.BrokerK8sCA}&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
-          <mxGeometry x="910" y="210" width="640" height="160" as="geometry" />
+          <mxGeometry x="870" y="210" width="580" height="160" as="geometry" />
         </mxCell>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-53" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;lables (app是matchLabels)&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;app=&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;submariner-lighthouse-coredns&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;component=submariner-lighthouse&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
           <mxGeometry x="597" y="355" width="230" height="50" as="geometry" />
@@ -239,7 +235,49 @@
           </mxCell>
         </object>
         <mxCell id="q2rs-EoDX2lvy_-368Ex-61" value="1.获取kube-system下的coredns的CM&lt;br&gt;2.获取submariner-lighthouse-coredns的svc&lt;br&gt;3.重写coredns的cm，添加svc的clusterip等内容" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
-          <mxGeometry x="590" y="615" width="260" height="60" as="geometry" />
+          <mxGeometry x="597" y="615" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q2rs-EoDX2lvy_-368Ex-66" value="&lt;span style=&quot;font-size: 18px ; text-align: center&quot;&gt;watch&amp;nbsp; serviceDiscovery（v1alpha1）、 appsv1.Deployments&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="eKBEcJLPsEKG9jPXAxb9-1">
+          <mxGeometry x="195" y="40" width="520" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Gajw48IiDgHLdyh9EDvu" name="Page-3">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fTO4weohDSsOzyyNUopB-0" />
+        <mxCell id="fTO4weohDSsOzyyNUopB-1" parent="fTO4weohDSsOzyyNUopB-0" />
+        <mxCell id="YSVnjP1xltLRZuk7L1aq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="YSVnjP1xltLRZuk7L1aq-12" target="YSVnjP1xltLRZuk7L1aq-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSVnjP1xltLRZuk7L1aq-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;submariner-controller&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="340" y="8" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YSVnjP1xltLRZuk7L1aq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.696;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" target="YSVnjP1xltLRZuk7L1aq-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464.96000000000004" y="108" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSVnjP1xltLRZuk7L1aq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="YSVnjP1xltLRZuk7L1aq-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSVnjP1xltLRZuk7L1aq-15" value="&lt;font style=&quot;font-size: 18px&quot;&gt;获取Submariner实例&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="355" y="138" width="220" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YSVnjP1xltLRZuk7L1aq-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;watch&amp;nbsp; Submariner&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;（v1alpha1）、 appsv1.&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;DaemonSets、&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Gateway.submariner.io（v1）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="100" y="70" width="715" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wJL0LmT1u2wDjK_UKI-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="9_wJL0LmT1u2wDjK_UKI-0" target="9_wJL0LmT1u2wDjK_UKI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wJL0LmT1u2wDjK_UKI-0" value="&lt;span style=&quot;font-size: 18px&quot;&gt;更新submariner默认参数（空则设置默认值）&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="281.25" y="200" width="367.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wJL0LmT1u2wDjK_UKI-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Spec.Repository =&amp;nbsp;&amp;nbsp;quay.io/submariner&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;Spec.Version = 0.7.0&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;Spec.ColorCodes = blue&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="680" y="186" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
