@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-16T07:50:38.718Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="P0HkVp3uwHUpgKBW92FH" version="13.9.8" type="github" pages="3">
+<mxfile modified="2020-11-16T07:56:56.830Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="HjiqyEHI-bhG2BkN-dFz" version="13.9.8" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="operator-process">
     <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Gajw48IiDgHLdyh9EDvu" name="submariner-controller">
-    <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fTO4weohDSsOzyyNUopB-0" />
         <mxCell id="fTO4weohDSsOzyyNUopB-1" parent="fTO4weohDSsOzyyNUopB-0" />
@@ -371,7 +371,7 @@
           <mxGeometry y="240" width="250" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;2.设置controller的reference&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
-          <mxGeometry x="530" y="442" width="175" height="30" as="geometry" />
+          <mxGeometry x="522.5" y="450" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-4" target="Ua-teP7_7NLsLcD_5R8c-7">
           <mxGeometry relative="1" as="geometry" />
@@ -380,7 +380,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;reconcileRouteagentDaemonSet&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
-          <mxGeometry x="238.13" y="480" width="273.75" height="30" as="geometry" />
+          <mxGeometry x="238.13" y="527.5" width="273.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-7" target="Ua-teP7_7NLsLcD_5R8c-8">
           <mxGeometry relative="1" as="geometry" />
@@ -389,31 +389,62 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1.创建submariner-gateway的daemonsets&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
-          <mxGeometry x="530" y="477.5" width="160" height="35" as="geometry" />
+          <mxGeometry x="530" y="525" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-8" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;lables (app是matchLabels)&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;app=&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;submariner-routeagent&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;component=&lt;/span&gt;&lt;/span&gt;routeagent" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
-          <mxGeometry x="725" y="472.5" width="230" height="45" as="geometry" />
+          <mxGeometry x="725" y="520" width="230" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-11" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Env: []corev1.EnvVar{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_NAMESPACE&quot;, Value: cr.Spec.Namespace},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_CLUSTERID&quot;, Value: cr.Spec.ClusterID},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_DEBUG&quot;, Value: strconv.FormatBool(cr.Spec.Debug)},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_CLUSTERCIDR&quot;, Value: cr.Status.ClusterCIDR},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_SERVICECIDR&quot;, Value: cr.Status.ServiceCIDR},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_GLOBALCIDR&quot;, Value: cr.Spec.GlobalCIDR},&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
-          <mxGeometry x="725" y="540" width="470" height="110" as="geometry" />
+          <mxGeometry x="725" y="587.5" width="470" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-12" value="&lt;span style=&quot;font-size: 14px&quot;&gt;2.设置controller的reference&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
-          <mxGeometry x="530" y="520" width="175" height="30" as="geometry" />
+          <mxGeometry x="522.5" y="577.5" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-17" value="" style="endArrow=classic;html=1;entryX=-0.001;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" target="Ua-teP7_7NLsLcD_5R8c-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="500" as="sourcePoint" />
-            <mxPoint x="760" y="520" as="targetPoint" />
+            <mxPoint x="690" y="547.5" as="sourcePoint" />
+            <mxPoint x="760" y="567.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="500" />
-              <mxPoint x="710" y="540" />
-              <mxPoint x="710" y="550" />
-              <mxPoint x="710" y="597" />
+              <mxPoint x="710" y="547.5" />
+              <mxPoint x="710" y="587.5" />
+              <mxPoint x="710" y="597.5" />
+              <mxPoint x="710" y="644.5" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-18" target="Ua-teP7_7NLsLcD_5R8c-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ua-teP7_7NLsLcD_5R8c-18" value="&lt;font style=&quot;font-size: 18px&quot;&gt;reconcileGlobalnetDaemonSet&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
-          <mxGeometry x="238.13" y="660" width="273.75" height="30" as="geometry" />
+          <mxGeometry x="238.13" y="757.5" width="273.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-20" target="Ua-teP7_7NLsLcD_5R8c-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-20" target="Ua-teP7_7NLsLcD_5R8c-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1.创建globalnetDaemonSet的daemonsets&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="530" y="755" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-22" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;lables (app是matchLabels)&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;app=&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;submariner-globalnet&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;component=&lt;/span&gt;&lt;/span&gt;globalnet" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="770" y="750" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-23" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Env:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_NAMESPACE&quot;, Value: cr.Spec.Namespace},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_CLUSTERID&quot;, Value: cr.Spec.ClusterID},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span&gt;								&lt;/span&gt;{Name: &quot;SUBMARINER_EXCLUDENS&quot;, Value: &quot;submariner-operator,kube-system,operators&quot;},&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="770" y="807.5" width="590" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fTO4weohDSsOzyyNUopB-1" source="Ua-teP7_7NLsLcD_5R8c-20" target="Ua-teP7_7NLsLcD_5R8c-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="782.5" as="sourcePoint" />
+            <mxPoint x="780" y="782.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="781.5" />
+              <mxPoint x="750" y="835.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ua-teP7_7NLsLcD_5R8c-27" value="&lt;span style=&quot;font-size: 14px&quot;&gt;2.设置controller的reference&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fTO4weohDSsOzyyNUopB-1">
+          <mxGeometry x="530" y="807.5" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
