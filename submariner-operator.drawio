@@ -1,38 +1,83 @@
-<mxfile modified="2020-11-16T02:03:36.364Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="WiSxR7OwqlY-PzdI5Bce" version="13.9.8" type="github">
+<mxfile modified="2020-11-16T02:50:12.196Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="qkdTFFQ715u6lYfo68Fj" version="13.9.8" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6Ttk6MVjyOUTEQbwX9wA-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;submarienr&lt;br&gt;operator&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Ttk6MVjyOUTEQbwX9wA-4" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+        <mxCell id="6Ttk6MVjyOUTEQbwX9wA-4" value="" style="endArrow=classic;html=1;entryX=0.002;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="6Ttk6MVjyOUTEQbwX9wA-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="130" as="sourcePoint" />
             <mxPoint x="260" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6Ttk6MVjyOUTEQbwX9wA-5" value="获取namespace，从operator的pod的环境变量watch_namespace中获取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="70" width="400" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="6Ttk6MVjyOUTEQbwX9wA-6" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="144" as="sourcePoint" />
-            <mxPoint x="270" y="100" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="270" y="40" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6Ttk6MVjyOUTEQbwX9wA-7" value="选举operator的leader，如果不存在submariner-operator-lock的configMap，则创建这个cm的pod就是leader" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="90" width="580" height="20" as="geometry" />
+          <mxGeometry x="270" y="60" width="580" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bxi6inl1epP-guMML2Eb-1" value="" style="endArrow=classic;html=1;entryX=0.003;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bxi6inl1epP-guMML2Eb-2">
+        <mxCell id="bxi6inl1epP-guMML2Eb-1" value="" style="endArrow=classic;html=1;entryX=0.003;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="6Ttk6MVjyOUTEQbwX9wA-1" target="bxi6inl1epP-guMML2Eb-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="212" y="154" as="sourcePoint" />
             <mxPoint x="272" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxi6inl1epP-guMML2Eb-2" value="创建cmd来启动组件和依赖，同时绑定metrics端口0.0.0.0:8383" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="110" width="350" height="20" as="geometry" />
+          <mxGeometry x="280" y="80" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-4" value="创建engine CRDs，submariners.submariner.io，endpoints.submariner.io，GatewayCRDs&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BentryX%3D0.003%3BentryY%3D0.45%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22210%22%20y%3D%22142.12031349290402%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22386.04999999999995%22%20y%3D%22118.99999999999994%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;engine CRDs&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-6" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.997;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6Ttk6MVjyOUTEQbwX9wA-1" target="bxi6inl1epP-guMML2Eb-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="149.56031349290402" as="sourcePoint" />
+            <mxPoint x="386.04999999999995" y="126.43999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-7" value="创建lighthouse CRDs，multiclusterservices，serviceimport，serviceexports，servicediscoveries&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BentryX%3D0.003%3BentryY%3D0.45%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22210%22%20y%3D%22142.12031349290402%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22386.04999999999995%22%20y%3D%22118.99999999999994%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;engine CRDs&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="530" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bxi6inl1epP-guMML2Eb-7" source="6Ttk6MVjyOUTEQbwX9wA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="167.56031349290402" as="sourcePoint" />
+            <mxPoint x="386.04999999999995" y="144.43999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-9" value="创建与operator同名的service和service monitor，&lt;br&gt;保存http://metricsHost:operatorMetricsPort的metrics，http-metrics：8383；cr-metrics：8686" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="279.9999999999999" y="160" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-10" value="" style="endArrow=classic;html=1;entryX=-0.007;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bxi6inl1epP-guMML2Eb-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="152" as="sourcePoint" />
+            <mxPoint x="385.62999999999994" y="154.43999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-11" value="添加scheme和controllers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="279.9999999999999" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="bxi6inl1epP-guMML2Eb-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="160" as="sourcePoint" />
+            <mxPoint x="385.2099999999999" y="165.79999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="6Ttk6MVjyOUTEQbwX9wA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="145" as="sourcePoint" />
+            <mxPoint x="269" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-15" value="" style="endArrow=classic;html=1;entryX=-0.007;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" target="bxi6inl1epP-guMML2Eb-16" source="6Ttk6MVjyOUTEQbwX9wA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="232" as="sourcePoint" />
+            <mxPoint x="385.62999999999994" y="234.43999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxi6inl1epP-guMML2Eb-16" value="start the cmd，and its controller runs，servicediscovery-controller&amp;nbsp; &amp;nbsp; 和&amp;nbsp;&amp;nbsp;submariner-controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="279.9999999999999" y="190" width="510" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
