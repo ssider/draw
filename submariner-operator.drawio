@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-16T08:25:03.158Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="NpkHac--rXduuSLk15hk" version="13.9.8" type="github" pages="3">
+<mxfile modified="2020-11-16T09:08:20.292Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="x_CRjXQFaKXx5RaW874M" version="13.9.8" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="operator-process">
     <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -387,7 +387,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="08BK1heamfLCw0PbWUhV" name="servicediscovery-controller">
-    <mxGraphModel dx="1422" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="1610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eKBEcJLPsEKG9jPXAxb9-0" />
         <mxCell id="eKBEcJLPsEKG9jPXAxb9-1" parent="eKBEcJLPsEKG9jPXAxb9-0" />
@@ -440,7 +440,7 @@
             <mxPoint x="620" y="310" as="sourcePoint" />
             <mxPoint x="400" y="290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="290" />
+              <mxPoint x="253" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -508,7 +508,7 @@
             <mxPoint x="346.7950000000001" y="449.96000000000004" as="sourcePoint" />
             <mxPoint x="320" y="449.9999999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="330" y="540" />
+              <mxPoint x="330" y="552" />
               <mxPoint x="330" y="454" />
             </Array>
           </mxGeometry>
