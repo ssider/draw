@@ -1,1 +1,161 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T02:24:07.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.0" etag="ZrHXzvMLwTgiP0b0tZH6" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-08T03:06:27.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="W9yEVzQ_KQGVIZcQovmK" version="17.4.0" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2123" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="hxioFJTHbDXF7mrDxg4k-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="main" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-10" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-0" target="hxioFJTHbDXF7mrDxg4k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-0" target="hxioFJTHbDXF7mrDxg4k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-0" target="hxioFJTHbDXF7mrDxg4k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-0" target="hxioFJTHbDXF7mrDxg4k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-0" target="hxioFJTHbDXF7mrDxg4k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-0" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;NewControllerManager&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontColor=default;labelBackgroundColor=default;labelBorderColor=none;arcSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="160" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-2" target="hxioFJTHbDXF7mrDxg4k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-2" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;NewCRRApprover&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="130" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-7" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;NewStatusManager&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="190" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-9" target="hxioFJTHbDXF7mrDxg4k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-9" target="hxioFJTHbDXF7mrDxg4k-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-9" target="hxioFJTHbDXF7mrDxg4k-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-9" target="hxioFJTHbDXF7mrDxg4k-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-9" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;handleClusterRegistrationRequests&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontColor=default;labelBackgroundColor=default;labelBorderColor=none;arcSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="130" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-13" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;1. create dedicated namespace&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;1.创建子集群namespace&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=#000000;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="50" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-13" target="hxioFJTHbDXF7mrDxg4k-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1335" y="80.0666666666666" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-21" value="查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="hxioFJTHbDXF7mrDxg4k-20">
+          <mxGeometry x="0.2857" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-13" target="hxioFJTHbDXF7mrDxg4k-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1335" y="80.0666666666666" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-24" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="hxioFJTHbDXF7mrDxg4k-23">
+          <mxGeometry x="-0.0643" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-19" value="&lt;span style=&quot;font-size: 13px&quot;&gt;labelselector&lt;/span&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;  clusternet.io/created-by: &lt;/span&gt;gaia-controller-manager&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;  clusters.gaia.io/cluster-id: &lt;/span&gt;crr.Spec.ClusterI&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontSize=13;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1410" width="412.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-22" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;GenerateName： gaia-&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 13px&quot;&gt;labelselector&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 13px&quot;&gt;&lt;pre style=&quot;font-size: 13px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;  clusternet.io/created-by: gaia-controller-manager&lt;/pre&gt;&lt;pre style=&quot;font-size: 13px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;  clusters.gaia.io/cluster-id: crr.Spec.ClusterI&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;  clusters.gaia.io/cluster-name： &lt;/span&gt;crr.Spec.ClusterName&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1410" y="115" width="440" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-25" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt; 2. create ManagedCluster&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;2.创建子集群&lt;span style=&quot;font-size: 9.8pt&quot;&gt;ManagedCluster&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="360" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-25" target="hxioFJTHbDXF7mrDxg4k-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1343" y="360.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-34" value="查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="hxioFJTHbDXF7mrDxg4k-33">
+          <mxGeometry x="0.0279" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-25" target="hxioFJTHbDXF7mrDxg4k-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1343" y="360.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-37" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="hxioFJTHbDXF7mrDxg4k-36">
+          <mxGeometry x="-0.0112" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-30" value="&lt;span style=&quot;font-size: 13px&quot;&gt;labelselector&lt;/span&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;  clusternet.io/created-by: &lt;/span&gt;gaia-controller-manager&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;  clusters.gaia.io/cluster-id: &lt;/span&gt;crr.Spec.ClusterI&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontSize=13;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1410" y="290" width="412.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-35" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;GenerateName： gaia-&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 13px ; white-space: normal&quot;&gt;labelselector&lt;/span&gt;&lt;/div&gt;&lt;pre style=&quot;font-size: 13px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;  clusternet.io/created-by: gaia-controller-manager&lt;/pre&gt;&lt;pre style=&quot;font-size: 13px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;  clusters.gaia.io/cluster-id: crr.Spec.ClusterI&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;  clusters.gaia.io/cluster-name： &lt;/span&gt;crr.Spec.ClusterName&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  labels: crr.labels&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1410" y="410" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-39" target="hxioFJTHbDXF7mrDxg4k-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1138" y="710.0666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-45" value="查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="hxioFJTHbDXF7mrDxg4k-43">
+          <mxGeometry x="0.1615" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-39" target="hxioFJTHbDXF7mrDxg4k-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-48" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="hxioFJTHbDXF7mrDxg4k-47">
+          <mxGeometry x="0.4733" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-39" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;3. create ServiceAccount&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="650" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-44" value="&lt;span style=&quot;font-size: 13px&quot;&gt;labelselector&lt;/span&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;  clusternet.io/created-by: &lt;/span&gt;gaia-controller-manager&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;  clusters.gaia.io/cluster-id: &lt;/span&gt;crr.Spec.ClusterI&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontSize=13;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1410" y="620" width="412.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-46" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;GenerateName： gaia-&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 13px&quot;&gt;labelselector&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 13px&quot;&gt;&lt;pre style=&quot;font-size: 13px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;  clusternet.io/created-by: gaia-controller-manager&lt;/pre&gt;&lt;pre style=&quot;font-size: 13px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;  clusters.gaia.io/cluster-id: crr.Spec.ClusterI&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;  clusters.gaia.io/cluster-name： &lt;/span&gt;crr.Spec.ClusterName&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1410" y="740" width="440" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-49" target="hxioFJTHbDXF7mrDxg4k-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-49" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;4.1. binding default rbac rules&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;bindingClusterRoles&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="845" y="870" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-51" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;4.2. binding default rbac rules&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;bindingRole&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="1100" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-52" target="hxioFJTHbDXF7mrDxg4k-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-52" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;create sockets clusterrole&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="905" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-54" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;Name:        gaia- &lt;span style=&quot;font-size: 9.8pt&quot;&gt;+ &lt;/span&gt;crr.Spec.ClusterID,&lt;br&gt;Annotations: gaia.io/autoupdate: &lt;span style=&quot;font-size: 9.8pt&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;,&lt;/span&gt;&lt;br&gt;Labels: &lt;br&gt;   clusters.gaia.io/bootstrapping: rbac-defaults,&lt;br&gt;&lt;span&gt;   &lt;/span&gt;gaia.io/created-by:      gaia-controller-manager,&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;   &lt;span style=&quot;font-size: 9.8pt&quot;&gt;clusters.gaia.io/cluster-id:            crr.Spec.ClusterID,&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;Rules: []&lt;/font&gt;&lt;span style=&quot;&quot;&gt;rbacv1&lt;/span&gt;&lt;font&gt;.&lt;/font&gt;&lt;span style=&quot;&quot;&gt;PolicyRule&lt;/span&gt;&lt;font&gt;{&lt;br&gt;   {&lt;br&gt;      APIGroups: [&lt;/font&gt;&lt;font&gt;&quot;&lt;/font&gt;platform.gaia.io&lt;font style=&quot;font-size: 9.8pt&quot;&gt;&quot;&lt;/font&gt;&lt;font style=&quot;font-size: 9.8pt&quot;&gt;&lt;i&gt;]&lt;/i&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;      &lt;/span&gt;&lt;font&gt;Resources: [&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&quot;clusterregistrationrequests&quot;&lt;/span&gt;&lt;font&gt;]&lt;/font&gt;&lt;span style=&quot;&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;      &lt;/span&gt;&lt;font&gt;Verbs: [&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&quot;create&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;get&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;update&quot;]&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;      &lt;/span&gt;&lt;font&gt;}&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1550" y="890" width="556.5" height="255" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
