@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T01:05:26.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="inwr1YRg-f5hPE9u3byP" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T01:11:56.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="g0eXIE_61QeHGmg89Ipd" version="17.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2411" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -398,6 +398,9 @@
         <mxCell id="hxioFJTHbDXF7mrDxg4k-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-150" target="hxioFJTHbDXF7mrDxg4k-152">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-180" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxioFJTHbDXF7mrDxg4k-150" target="hxioFJTHbDXF7mrDxg4k-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hxioFJTHbDXF7mrDxg4k-150" value="创建crr" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="1270" width="210" height="50" as="geometry" />
         </mxCell>
@@ -457,6 +460,9 @@
         </mxCell>
         <mxCell id="hxioFJTHbDXF7mrDxg4k-177" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;空&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="620" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hxioFJTHbDXF7mrDxg4k-179" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Name: gaia-+clusterID&lt;span style=&quot;font-size: 9.8pt&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;   &lt;/span&gt;Labels: &lt;br&gt;      clusters.gaia.io/registered-by: Gaia-Controllermanager,&lt;br&gt;&lt;span&gt;      &lt;/span&gt;clusters.gaia.io/cluster-id: &lt;span style=&quot;font-size: 9.8pt&quot;&gt;clusterID&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;      &lt;/span&gt;clusters.gaia.io/cluster-name: clusterName&lt;span style=&quot;font-size: 9.8pt&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span&gt;   &lt;/span&gt;}&lt;span&gt;,&lt;br&gt;&lt;/span&gt;}&lt;span&gt;,&lt;br&gt;&lt;/span&gt;Spec: &lt;span&gt;clusterapi&lt;/span&gt;.&lt;span&gt;ClusterRegistrationRequestSpec&lt;/span&gt;{&lt;br&gt;   ClusterID:     clusterID&lt;span&gt;,&lt;br&gt;&lt;/span&gt;&lt;span&gt;   &lt;/span&gt;ClusterName:   clusterName&lt;span&gt;,&lt;br&gt;&lt;/span&gt;&lt;span&gt;   &lt;/span&gt;ClusterLabels: nil&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;arcSize=13;fontColor=default;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="1195" width="480" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
