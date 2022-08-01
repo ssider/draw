@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T23:13:20.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3DYqQ1nloDbHHMLaOczU" version="20.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-01T23:14:15.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6fLc1Wdii63LGrknrztF" version="20.2.2" type="github" pages="4">
   <diagram id="TBKQJXGaHXqnbiChBT7S" name="micro_arch">
     <mxGraphModel dx="2276" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -395,7 +395,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-1" value="ingress" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="130" y="290" width="80" height="40" as="geometry" />
+          <mxGeometry x="92" y="290" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mtd8jnJK9TT4kkjCYx_Y-2" target="Mtd8jnJK9TT4kkjCYx_Y-6">
           <mxGeometry relative="1" as="geometry" />
@@ -403,21 +403,21 @@
         <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="Mtd8jnJK9TT4kkjCYx_Y-2" target="Mtd8jnJK9TT4kkjCYx_Y-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="370" y="310" />
-              <mxPoint x="370" y="240" />
+              <mxPoint x="390" y="310" />
+              <mxPoint x="390" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="Mtd8jnJK9TT4kkjCYx_Y-2" target="Mtd8jnJK9TT4kkjCYx_Y-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="370" y="310" />
-              <mxPoint x="370" y="380" />
+              <mxPoint x="390" y="310" />
+              <mxPoint x="390" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-2" value="service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="260" y="290" width="80" height="40" as="geometry" />
+          <mxGeometry x="202" y="290" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mtd8jnJK9TT4kkjCYx_Y-4" target="Mtd8jnJK9TT4kkjCYx_Y-12">
           <mxGeometry relative="1" as="geometry" />
@@ -435,6 +435,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="310" as="sourcePoint" />
             <mxPoint x="420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-24" value="loadbalance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="Mtd8jnJK9TT4kkjCYx_Y-8">
+          <mxGeometry x="-0.5193" y="1" relative="1" as="geometry">
+            <mxPoint x="27" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mtd8jnJK9TT4kkjCYx_Y-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mtd8jnJK9TT4kkjCYx_Y-10" target="Mtd8jnJK9TT4kkjCYx_Y-15">
