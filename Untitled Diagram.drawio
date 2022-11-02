@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T00:09:16.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1GfnpC3f6SxjHQoUOJJY" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-02T00:21:00.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NR1OpnZkHBaI7gavZ47X" version="20.5.1" type="github" pages="4">
   <diagram id="TBKQJXGaHXqnbiChBT7S" name="micro_arch">
-    <mxGraphModel dx="1991" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,73 +160,79 @@
         <mxCell id="ulDW8vEcupPJWtpSBNnP-3" value="system&lt;br&gt;&lt;br&gt;archi&lt;br&gt;tecture" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-130" y="80" width="73" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="QPj-1ZOkf_z3_0ZXr8SG-2" target="QPj-1ZOkf_z3_0ZXr8SG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-9" y="803" width="580" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-3" value="any framework" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-3" value="any framework" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="121" y="810" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-4" value="Golang/JAVA/Python/Vue/Angular/C/C++/Swift..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-4" value="Golang/JAVA/Python/Vue/Angular/C/C++/Swift..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="241" y="810" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-8" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-8" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1" y="810" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-10" y="960" width="580" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-11" value="service to service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-11" value="service to service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="-3" y="968.5" width="113" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-12" value="state management" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-12" value="state management" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="127" y="968.5" width="123" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-13" value="publish and subscribe" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-13" value="publish and subscribe" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="268.5" y="968.5" width="141.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-14" value="resource binding&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-14" value="resource binding&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="418.5" y="968.5" width="141.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-15" value="resource triggers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-15" value="resource triggers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="-3" y="1030" width="141.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-16" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Distributed Api&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="225" y="760" width="110" height="30" as="geometry" />
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-16" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Distributed Api&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-143" y="940" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-17" value="Actors" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-17" value="Actors" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="156.5" y="1030" width="83.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-18" value="observability" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-18" value="observability" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="258.25" y="1030" width="83.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-19" value="Secret" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-19" value="Secret" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="360" y="1030" width="83.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-20" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Extension&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-20" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Extension&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="456.5" y="1030" width="83.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1110" width="580" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-22" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Infrastructure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-22" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Infrastructure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-3" y="1118.5" width="113" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-23" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Ali Cloud&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-23" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Ali Cloud&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="120" y="1118.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-24" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Amazon&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-24" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Amazon&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="215" y="1118.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-25" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Azure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-25" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Azure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="315" y="1118.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-26" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Kubernetes&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-26" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;Kubernetes&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="410" y="1118.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-27" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;others&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-27" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;others&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="500" y="1118.5" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-28" value="HTTP/GRPC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="QPj-1ZOkf_z3_0ZXr8SG-28" target="QPj-1ZOkf_z3_0ZXr8SG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QPj-1ZOkf_z3_0ZXr8SG-28" value="HTTP/GRPC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="185" y="890" width="192" height="40" as="geometry" />
         </mxCell>
       </root>
